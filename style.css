@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  height: 100%;
+  justify-content: center;
+}
+
+#content {
+  height: 45em;
+} 
+
+h1 {
+  max-width: 30em;
+  color: white;
+  font-family: "Futura", "Raleway", "Open Sans";
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 145%;
+  font-size: 3em;
+  font-variant: small-caps;  
+}
+
+p {
+  max-width: 30em;
+  color: white;
+  font-family: "Iowan Old Style", Times;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 145%;
+  font-size: 3em;
+}
+
+button {
+  border-radius: 12px;
+  color: slategrey;
+  font-size: 2em;
+  font-family: "Futura";
+  font-weight: bold;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 40%;
+}
+
+@media (max-width: 400px) {
+  .container {
+    display: block;
+  }
+}
