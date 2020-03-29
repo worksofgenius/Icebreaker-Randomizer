@@ -56,9 +56,3 @@ button {
   flex-flow: column wrap;
   width: 40%;
 }
-
-@media (max-width: 400px) {
-  .container {
-    display: block;
-  }
-}
