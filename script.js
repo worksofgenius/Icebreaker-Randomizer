@@ -105,5 +105,7 @@ function modifyBackground() {
 modifyBackground();
 
 //Event listener on page
-button.addEventListener("click", modifyBackground);
-button.addEventListener("click", changeQuote);
+button.addEventListener("click",() => {
+    modifyBackground();
+    changeQuote();
+});
