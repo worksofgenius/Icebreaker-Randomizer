@@ -1,5 +1,7 @@
 # Icebreaker Randomizer
 
+<img src="https://github.com/worksofgenius/Icebreaker-Randomizer/blob/master/icebreaker-randomizer.png" height="50%" width="50%">
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
